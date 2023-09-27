@@ -1,18 +1,22 @@
-## Getting Started
+# Controle de Fluxo em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto em Java que demonstra o uso das estruturas de controle de fluxo da linguagem Java para gerenciar o fluxo de execução de um programa. As estruturas de controle de fluxo são usadas para tomar decisões e realizar ações com base em condições específicas em um programa.
 
-## Folder Structure
+## Estruturas de Controle de Fluxo Abordadas
 
-The workspace contains two folders by default, where:
+### Estruturas Condicionais
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `if`: Usado para tomar decisões com base em uma condição.
+- `else`: Fornecendo uma alternativa caso a condição não seja atendida.
+- `else if`: Verifica múltiplas condições em sequência.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Estruturas de Repetição
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `for`: Cria loops com um número conhecido de iterações.
+- `while`: Executa um bloco de código enquanto uma condição específica for verdadeira.
+- `do-while`: Semelhante ao `while`, mas garante que o código seja executado pelo menos uma vez.
 
-## Dependency Management
+### Estruturas de Controle de Interrupção
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `break`: Sai de loops ou de um bloco de código.
+- `continue`: Pula a iteração atual de um loop.
